@@ -1,9 +1,11 @@
 *{
   box-sizing: border-box;
-  /*border:1px solid red;*/
+/*  border:1px solid red;*/
 }
 body,html{
-  margin:0px
+  margin:0px;
+  padding:0px;
+  font-family: Montserrat, sans-serif;
 }
 .jumbotron{
   background-image: url('images/welcome.png');
@@ -19,7 +21,15 @@ body,html{
 .price{
   color: #B5A067;
 }
+ul{
+  margin-left: 20px;
 
+}
+li{
+  padding:0px 20px;
+  text-decoration: none;
+  color:white;
+}
 .column1{
   float: left;
   width: 25%;
@@ -103,17 +113,18 @@ body,html{
 #testimony{
   background-color: #F4EFEF;;
   margin-bottom: 0px;
+  padding:20px 30px;
 }
 
 #copyright {
    left: 0;
    bottom: 0;
    right:0;
-   width:100vw;
    background-color: #15192D;
    color: white;
    display:inline-block;
    margin: 0;
+   padding-left: 20px;
 }
 #room{
   margin-bottom: 0px;
@@ -121,12 +132,14 @@ body,html{
     /*border:1px solid red;*/
 }
 #word_of_excellence{
-  margin-left: 60px;
+  margin:40px 0 40px 60px;
+
+}
+#image_of_excellence{
+  padding:40px 0;
 }
 
-#navigation{
-  text-align: center;
-}
 .excellence,#image_of_excellence{
   margin:0px;
+  padding:20px,0px;
 }
